@@ -1,0 +1,21 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "a website portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp -r cojo build",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wosen100/Portfolio.git"
+  },
+  "author": "Wosen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wosen100/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Wosen100/Portfolio#readme"
+}
